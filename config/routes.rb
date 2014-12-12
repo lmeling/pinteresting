@@ -1,4 +1,5 @@
 Pinteresting::Application.routes.draw do
+  devise_for :installs
   root "pages#home"
   get "about" =>"pages#about"
   # The priority is based upon order of creation: first created -> highest priority.
