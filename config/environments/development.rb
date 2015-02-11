@@ -1,3 +1,4 @@
+
 Pinteresting::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -30,4 +31,8 @@ Pinteresting::Application.configure do
   #required for heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
-end
+
+end 
+
+Paperclip.options[:command_path] = "/C/windows/system32/"
+
