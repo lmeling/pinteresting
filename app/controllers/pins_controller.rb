@@ -49,7 +49,7 @@ def create
       redirect_to pins_path, notice: "Not authorized to edit this pin" if @pin.nil?
 
     end
-    # Never trust parameters from the scary internet, only allow the white list through.
+
     def pin_params
       params.require(:pin).permit(:description, :image)
     end

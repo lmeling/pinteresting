@@ -33,6 +33,3 @@ Pinteresting::Application.configure do
 
 
 end 
-
-Paperclip.options[:command_path] = "/C/windows/system32/"
-
